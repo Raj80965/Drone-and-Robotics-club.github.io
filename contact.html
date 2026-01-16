@@ -136,5 +136,16 @@ function sendWhatsApp(){
 }
 </script>
 
+  <audio id="clickSound" src="click.mp3"></audio>
+
+  <script>
+    document.addEventListener("click", function () {
+      const sound = document.getElementById("clickSound");
+      sound.currentTime = 0;
+      sound.play();
+    });
+  </script>
+
+  
 </body>
 </html>
