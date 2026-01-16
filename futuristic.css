@@ -673,7 +673,7 @@ body{
 /* HERO TITLE OPTIMIZE */
 .hero h1{
   font-size: clamp(2.2rem, 6vw, 3.5rem);
-  text-shadow: 0 0 15px rgba(0,255,255,0.6);
+  text-shadow: 0 0 10px rgba(0,255,255,0.5);
 }
 
 /* LIGHT BACKGROUND (FAST PAINT) */
@@ -684,7 +684,7 @@ body{
 /* REDUCE HEAVY SHADOWS */
 .ad-card,
 .team-box{
-  box-shadow: 0 8px 20px rgba(0,255,255,0.15);
+  box-shadow: 0 6px 16px rgba(0,242,255,0.18);
 }
 
 /* ===== FIX EXTRA SPACE ON HOME PAGE ===== */
